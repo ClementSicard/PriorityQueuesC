@@ -1,0 +1,82 @@
+======
+Queue example:
+pain, confiture, lessive, 
+pain <-- pop
+confiture <-- pop
+lessive <-- pop
+---
+<empty queue>
+-----
+Priority queue example:
+7 : beurre, 
+6 : <empty queue>
+5 : pain, noix, 
+4 : confiture, miel, 
+3 : <empty queue>
+2 : lessive, sel, 
+1 : savon, 
+0 : <empty queue>
+beurre <-- pop (max p = 5)
+pain <-- pop (max p = 5)
+noix <-- pop (max p = 4)
+confiture <-- pop (max p = 4)
+miel <-- pop (max p = 2)
+lessive <-- pop (max p = 2)
+sel <-- pop (max p = 1)
+savon <-- pop (max p = 0)
+---
+3 : pain, confiture, 
+2 : <empty queue>
+1 : confiture, 
+0 : <empty queue>
+---
+0 : <empty queue>
+---
+5 : pain, 
+4 : <empty queue>
+3 : confiture, 
+2 : <empty queue>
+1 : <empty queue>
+0 : confiture, 
+---
+======
+Queue example:
+111, 112, 113, 
+111 <-- pop
+112 <-- pop
+113 <-- pop
+---
+<empty queue>
+-----
+Priority queue example:
+7 : 114, 
+6 : <empty queue>
+5 : 111, 117, 
+4 : 112, 118, 
+3 : <empty queue>
+2 : 113, 116, 
+1 : 115, 
+0 : <empty queue>
+114 <-- pop (max p = 5)
+111 <-- pop (max p = 5)
+117 <-- pop (max p = 4)
+112 <-- pop (max p = 4)
+118 <-- pop (max p = 2)
+113 <-- pop (max p = 2)
+116 <-- pop (max p = 1)
+115 <-- pop (max p = 0)
+---
+3 : 111, 112, 
+2 : <empty queue>
+1 : 112, 
+0 : <empty queue>
+---
+0 : <empty queue>
+---
+5 : 111, 
+4 : <empty queue>
+3 : 112, 
+2 : <empty queue>
+1 : <empty queue>
+0 : 112, 
+---
